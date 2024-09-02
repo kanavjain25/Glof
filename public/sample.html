@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .marker-tooltip {
+      position: absolute;
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      max-width: 200px;
+      pointer-events: none;
+      z-index: 1000; /* Ensure tooltip appears above markers */
+    }
+  </style>
+
+  <script src="//unpkg.com/globe.gl"></script>
+</head>
+
+<body>
+<div id="globeViz"></div>
+
+<script>
+  const markerSvg = `
+    <svg viewBox="-4 0 36 36">
+      <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
+      <circle fill="black" cx="14" cy="14" r="7"></circle>
+    </svg>
+  `;
+
+  const colorScale = {
+    "Sikkim": "red",
+    "Uttarakhand": "blue",
+    "Himachal Pradesh": "green",
+    "Ladakh": "orange",
+    "Jammu & Kashmir": "purple"
+  };
+
+
+  const globe = Globe()
+    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+    .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+    .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+    .htmlElementsData([])
+    .htmlElement(d => {
+      const el = document.createElement('div');
+      el.innerHTML = markerSvg;
+      el.style.color = colorScale[d.region] || "white";
+      el.style.width = '20px';
+
+      el.style['pointer-events'] = 'auto';
+      el.style.cursor = 'pointer';
+      el.onclick = () => d.url && window.open(d.url, '_blank');
+
+      // Add mouseover event for tooltip
+      el.onmouseover = event => {
+        const tooltip = document.createElement('div');
+        tooltip.className = 'marker-tooltip';
+        tooltip.innerHTML = `
+          <strong>${d.label}</strong><br>
+          Region: ${d.region}<br>
+          ${d.abnormalities_time_period}
+        `;
+        document.body.appendChild(tooltip);
+
+        const updateTooltipPosition = () => {
+          const rect = el.getBoundingClientRect();
+          tooltip.style.left = `${rect.left}px`;
+          tooltip.style.top = `${rect.top - tooltip.offsetHeight - 10}px`;
+        };
+        updateTooltipPosition();
+
+        el.onmousemove = updateTooltipPosition;
+        el.onmouseout = () => {
+          document.body.removeChild(tooltip);
+          el.onmousemove = null;
+          el.onmouseout = null;
+        };
+      };
+
+      return el;
+    })
+    (document.getElementById('globeViz'));
+
+  // Set initial position to focus on India without zooming in
+  globe.pointOfView({ lat: 20.5937, lng: 78.9629, altitude: 1.5 }, 1000);
+
+  // Fetch data from the JSON file
+  fetch('./glacial_lakes.json')
+    .then(response => response.json())
+    .then(data => {
+      // Set the HTML elements data
+      globe.htmlElementsData(data);
+    })
+    .catch(error => console.error('Error loading the JSON file:', error));
+</script>
+</body>
+</html>

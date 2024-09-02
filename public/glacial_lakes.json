@@ -1,0 +1,162 @@
+[
+  {
+    "lat": 27.8803,
+    "lng": 88.2006,
+    "label": "South Lhonak Lake",
+    "url": "https://localhost:3000/dashboard",
+    "region": "Sikkim",
+    "abnormalities_time_period": "LST and ET increase 1-3 months before a GLOF due to glacial melting."
+  },
+  {
+    "lat": 30.7314,
+    "lng": 79.0667,
+    "label": "Chorabari Lake",
+    "url": "https://en.wikipedia.org/wiki/Chorabari_Glacier",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "LST and ET show changes 2-4 weeks before a GLOF, especially during monsoon."
+  },
+  {
+    "lat": 32.5000,
+    "lng": 77.7500,
+    "label": "Shako Cho Lake",
+    "url": "https://en.wikipedia.org/wiki/Spiti_Valley",
+    "region": "Himachal Pradesh",
+    "abnormalities_time_period": "LST and ET abnormalities noticed 3-6 weeks before a GLOF, during rapid snowmelt."
+  },
+  {
+    "lat": 34.0761,
+    "lng": 77.4797,
+    "label": "Pangong Lake",
+    "url": "https://en.wikipedia.org/wiki/Pangong_Lake",
+    "region": "Ladakh",
+    "abnormalities_time_period": "Temperature anomalies detected 1-2 months before events, linked to snowmelt."
+  },
+  {
+    "lat": 35.2446,
+    "lng": 77.7308,
+    "label": "Chandertal Lake",
+    "url": "https://en.wikipedia.org/wiki/Chandertal",
+    "region": "Himachal Pradesh",
+    "abnormalities_time_period": "Early signs of GLOF may appear 3-4 weeks before, related to rapid snow and ice melting."
+  },
+  {
+    "lat": 36.0237,
+    "lng": 78.2092,
+    "label": "Kibber Lake",
+    "url": "https://en.wikipedia.org/wiki/Kibber",
+    "region": "Himachal Pradesh",
+    "abnormalities_time_period": "Noticeable LST changes 2-3 weeks before a GLOF, associated with snowmelt."
+  },
+  {
+    "lat": 29.6643,
+    "lng": 79.3094,
+    "label": "Nanda Devi Lake",
+    "url": "https://en.wikipedia.org/wiki/Nanda_Devi",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "LST and ET changes may be observed 2-3 months in advance of a GLOF."
+  },
+  {
+    "lat": 31.6214,
+    "lng": 79.1870,
+    "label": "Bhagwati Lake",
+    "url": "https://en.wikipedia.org/wiki/Uttarakhand",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "Changes in LST and ET 2-3 months before a GLOF, linked to seasonal temperature changes."
+  },
+  {
+    "lat": 32.8442,
+    "lng": 78.3636,
+    "label": "Rangdum Lake",
+    "url": "https://en.wikipedia.org/wiki/Rangdum",
+    "region": "Ladakh",
+    "abnormalities_time_period": "GLOF indicators are visible 2-3 months in advance, linked to rapid temperature fluctuations."
+  },
+  {
+    "lat": 33.9823,
+    "lng": 78.1425,
+    "label": "Suraj Tal Lake",
+    "url": "https://en.wikipedia.org/wiki/Suraj_Tal",
+    "region": "Ladakh",
+    "abnormalities_time_period": "GLOF indicators may be visible 2-3 months in advance due to temperature spikes."
+  },
+  {
+    "lat": 30.0604,
+    "lng": 78.2373,
+    "label": "Maneri Lake",
+    "url": "https://en.wikipedia.org/wiki/Maneri_Dam",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "Abnormalities in ET and LST appear 1-2 months prior to GLOF events."
+  },
+  {
+    "lat": 31.1221,
+    "lng": 79.4678,
+    "label": "Suru Lake",
+    "url": "https://en.wikipedia.org/wiki/Suru_River",
+    "region": "Ladakh",
+    "abnormalities_time_period": "Noticeable changes in ET and LST detected 2-3 weeks before GLOF events."
+  },
+  {
+    "lat": 32.6648,
+    "lng": 78.1762,
+    "label": "Zanskar Lake",
+    "url": "https://en.wikipedia.org/wiki/Zanskar",
+    "region": "Ladakh",
+    "abnormalities_time_period": "Temperature fluctuations and ET changes visible 1-2 months prior to GLOF events."
+  },
+  {
+    "lat": 33.6265,
+    "lng": 78.5715,
+    "label": "Tsomoriri Lake",
+    "url": "https://en.wikipedia.org/wiki/Tso_Moriri",
+    "region": "Ladakh",
+    "abnormalities_time_period": "GLOF signs evident 1-2 months before due to sudden temperature fluctuations."
+  },
+  {
+    "lat": 34.6634,
+    "lng": 77.7953,
+    "label": "Tarsar Lake",
+    "url": "https://en.wikipedia.org/wiki/Tarsar_Lake",
+    "region": "Jammu & Kashmir",
+    "abnormalities_time_period": "LST and ET anomalies detected 2-3 months before a potential GLOF."
+  },
+  {
+    "lat": 35.8350,
+    "lng": 78.7580,
+    "label": "Ramsar Lake",
+    "url": "https://en.wikipedia.org/wiki/Lahaul_and_Spiti_district",
+    "region": "Himachal Pradesh",
+    "abnormalities_time_period": "Temperature anomalies and ET changes detected 1-2 months before potential GLOF."
+  },
+  {
+    "lat": 36.4916,
+    "lng": 77.1141,
+    "label": "Chong Kham Lake",
+    "url": "https://en.wikipedia.org/wiki/Nubra_Valley",
+    "region": "Himachal Pradesh",
+    "abnormalities_time_period": "Noticeable LST changes 2-3 weeks before GLOF events, during snowmelt periods."
+  },
+  {
+    "lat": 29.9841,
+    "lng": 79.0860,
+    "label": "Vishnusar Lake",
+    "url": "https://en.wikipedia.org/wiki/Kashmir_Valley",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "Changes in LST and ET detected 1-2 months before a GLOF, related to snowmelt."
+  },
+  {
+    "lat": 30.4422,
+    "lng": 79.6958,
+    "label": "Ronti Lake",
+    "url": "https://localhost:3000/dashboard_",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "LST and ET changes 1-2 months before an event, linked to snowmelt and glacier retreat."
+  },
+  {
+    "lat": 32.9971,
+    "lng": 78.2764,
+    "label": "Tso Moriri Lake",
+    "url": "https://en.wikipedia.org/wiki/Tso_Moriri",
+    "region": "Ladakh",
+    "abnormalities_time_period": "LST and ET variations evident 2-3 months in advance, often due to temperature changes."
+  }
+]

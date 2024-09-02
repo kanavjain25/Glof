@@ -1,0 +1,38 @@
+[
+  {
+    "lat": 27.8803,
+    "lng": 88.2006,
+    "label": "South Lhonak Lake",
+    "url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "region": "Sikkim",
+    "abnormalities_time_period": "Abnormal increases in LST and ET can be observed from 1 to 3 months prior to a potential GLOF. This is due to rapid glacial melting, increased precipitation, and warmer temperatures in pre-monsoon and monsoon periods."
+  },
+  {
+    "lat": 30.7314,
+    "lng": 79.0667,
+    "label": "Chorabari Lake",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "LST and ET show notable changes 2 to 4 weeks before a GLOF event. During the monsoon season, heavy rainfall combined with rapid snow and glacier melting can create early signs of instability."
+  },
+  {
+    "lat": 30.4422,
+    "lng": 79.6958,
+    "label": "Ronti Lake",
+    "region": "Uttarakhand",
+    "abnormalities_time_period": "Changes in LST and ET can be detected 1 to 2 months before an event, especially during periods of intense snowmelt and glacier retreat. Sudden changes in snow cover, surface temperature, and runoff patterns can be early indicators."
+  },
+  {
+    "lat": 32.5000,
+    "lng": 77.7500,
+    "label": "Shako Cho Lake",
+    "region": "Himachal Pradesh",
+    "abnormalities_time_period": "Abnormalities in LST and ET may be noticed 3 to 6 weeks before a GLOF, particularly during periods of rapid snow and ice melt in late spring to early summer. The region's arid conditions may also lead to sudden bursts of melting due to temperature changes."
+  },
+  {
+    "lat": 32.9971,
+    "lng": 78.2764,
+    "label": "Tso Moriri Lake",
+    "region": "Ladakh",
+    "abnormalities_time_period": "Variations in LST and ET could be evident 2 to 3 months in advance. The lake is located in a cold desert, so abnormalities often coincide with sudden temperature increases or changes in precipitation patterns, which could signal increased glacier melt."
+  }
+]
