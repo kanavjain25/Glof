@@ -1,4 +1,3 @@
-import { Globe } from '@/components/global/globe'
 import React from 'react'
 
 type Props = { children: React.ReactNode }

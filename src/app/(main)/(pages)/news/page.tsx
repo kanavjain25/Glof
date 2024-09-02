@@ -4,8 +4,6 @@ import { LinkPreview } from '@/components/ui/link-preview'
 import Image from 'next/image'
 import React from 'react'
 
-
-
 type Props = {}
 
 const News = (props: Props) => {

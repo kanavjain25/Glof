@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import AnimatedCircularProgressBar from "@/components/magicui/animated-circular-progress-bar";
 import * as React from 'react';
-
 import Link from "next/link";
 import Image from "next/image";
 
